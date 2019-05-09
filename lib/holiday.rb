@@ -63,7 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_name = name.to_s.split("-").collect {
         |wd| wd.capitalize
       }.join(" ")
-      puts" #{holiday}: #{supplies.join(" ")}"
+      puts" #{holiday_name}: #{supplies.join(" ")}"
     end
   end
 
