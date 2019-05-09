@@ -73,5 +73,5 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.map do |holiday, item|
       holiday if item.include?("BBQ")
     end
-  end.flatten.compact
+  end.flatten.compact #Source: https://apidock.com/ruby/v1_9_3_392/Array/compact
 end
