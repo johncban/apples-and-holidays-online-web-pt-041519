@@ -66,9 +66,8 @@ def all_supplies_in_holidays(holiday_hash)
       puts" #{holiday}: #{supplies.join(" ")}"
     end
   end
+
 end
-puts "List of seasons and holidays supplies"
-all_supplies_in_holidays(holiday_hash)
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
